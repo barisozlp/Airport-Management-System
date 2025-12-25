@@ -112,7 +112,7 @@ Sistem, operasyonel değişikliklere otomatik tepki vererek manuel işlem hatas�
 
 * **Senaryo:** Operasyon ekibi bir uçuşu **'İptal Edildi'** olarak güncellediğinde trigger devreye girer.
 * **Otomasyon:** İptal edilen uçağın işgal ettiği kapıyı otomatik olarak **'AÇIK'** statüsüne getirir, böylece kapı başka uçaklar için kullanılabilir hale gelir.
-* Kapı durumunun ilk hali ve Triggerın uygulanmasıyla oluşan hali aşağıda verilmiştir
+* Kapı durumunun ilk hali ve Triggerın uygulanmasıyla oluşan son hali aşağıda verilmiştir
   
 ![Kapı Durumunun İlk Hali](kapı_durumunun_ilk_hali_çıktısı.png)
 
@@ -120,12 +120,17 @@ Sistem, operasyonel değişikliklere otomatik tepki vererek manuel işlem hatas�
 
 ![Kapı Durumunun Son Hali](kapı_durumunun_son_hali_çıktısı.png)
 
-#### B. Müşteri Sadakat Programı (Loyalty Automation)
-Yolcu memnuniyetini artırmak için puanlama sistemi otomatize edilmiştir.
-* **Senaryo:** Bir uçuş **'Gerçekleşti'** statüsüne geçtiğinde (Uçak indiğinde) trigger çalışır.
-* **Otomasyon:** O uçuşta bileti olan tüm yolcuların hesabına anında **+100 Sadakat Puanı** eklenir.
+#### B. Yolcu Sadakat Puanı ve Seviye Güncellemesi 
 
-![Sadakat Trigger Kanıtı](08_Sadakat_Trigger_Kanit.png)
+* **Senaryo:** Bir uçuş **'Gerçekleşti'** statüsüne geçtiğinde trigger çalışır.
+* **Otomasyon:** O uçuşta bileti olan tüm yolcuların hesabına anında **+100 Sadakat Puanı** eklenir.
+* Kapı durumunun ilk hali ve Triggerın uygulanmasıyla oluşan son hali aşağıda verilmiştir
+  
+![Sadakat Durumunun ilk hali](Sadakat_durumunun_ilk_hali_çıktısı.png)
+
+* **Kanıt:** Aşağıda, 4  numaralı yolcunun yaptığı uçuş sonrası eklenen +100 puan durumu gösterilmiştir.
+  
+![Sadakat Durumunun son hali](Sadakat_durumunun_son_hali_çıktısı.png)
 
 <br>
 
