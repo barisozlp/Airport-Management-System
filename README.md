@@ -50,7 +50,7 @@ Sistemi kullanacak yolcuların kimlik, iletişim ve pasaport bilgileri `Yolcu` t
 ### ✈️ Aşama 4: Havayolu Şirketi Verileri Ekleme
 Uçuşları gerçekleştirecek olan Türk Hava Yolları, Lufthansa, Emirates gibi şirketler `HavayoluSirketi` tablosuna iletişim bilgileriyle birlikte kaydedilmiştir.
 
-![Havayolu Veri Çıktısı](HavayoluYolcu_veri_ekleme_çıktısı.png)
+![Havayolu Veri Çıktısı](Havayolu_sirketi_veri_ekleme_çıktısı.png)
 
 ---
 
