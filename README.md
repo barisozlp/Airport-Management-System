@@ -1,5 +1,35 @@
 # Airport-Management-System
+
+## 🎯 Projenin Amacı ve Çözüm Yaklaşımı
+[cite_start]Modern havalimanlarında birbirinden bağımsız çalışan sistemler veri kopukluğuna ve operasyonel gecikmelere neden olmaktadır[cite: 441]. Bu proje, **PostgreSQL** altyapısını kullanarak şu gerçek hayat problemlerine çözüm üretmiştir:
+
 PostgreSQL tabanlı kapsamlı Havalimanı Yönetim Sistemi. Otomatik sadakat puanı artırma ve kapı durumu güncelleme Trigger'ları, detaylı raporlama View'leri ve normalize edilmiş ilişkisel veritabanı mimarisini içerir.
+---
+
+## 🎯 Projenin Amacı ve Çözüm Yaklaşımı
+[cite_start]Modern havalimanlarında birbirinden bağımsız çalışan sistemler veri kopukluğuna ve operasyonel gecikmelere neden olmaktadır[cite: 441]. Bu proje, **PostgreSQL** altyapısını kullanarak şu gerçek hayat problemlerine çözüm üretmiştir:
+
+### 1. 🌍 Merkezi Veri Entegrasyonu
+[cite_start]Tüm operasyonel birimlerin (Yer hizmetleri, Güvenlik, Yönetim) verilerini tek bir merkezde toplayarak veri güvenilirliğini sağlamış ve bilgi kopukluğunu önlemiştir[cite: 443].
+
+### 2. 🛡️ Güvenlik ve Risk Analizi
+[cite_start]Yolcu profilleme sistemi sayesinde, yolcuların geçmiş seyahat verileri ve güvenlik durumları (Örn: Kara Liste kontrolü) anlık olarak sorgulanabilir hale getirilmiştir[cite: 435, 436].
+
+### 3. ⏱️ Operasyonel Verimlilik ve Esneklik
+Sefer ekleme, iptal veya rötar durumları anlık yönetilebilir. [cite_start]Hangi uçuşu hangi pilotun ve kabin ekibinin gerçekleştirdiği takip edilerek kaynak planlaması optimize edilmiştir[cite: 423, 424].
+
+### 4. 🧳 Bagaj ve Lojistik Takibi
+[cite_start]Yolcu bilet ID'si ile entegre bagaj takip sistemi sayesinde, kayıp bagaj vakaları ve yanlış yönlendirmeler minimize edilmiştir[cite: 426, 450].
+
+---
+## 🏗️ Sistem Mimarisi ve Kullanıcı Modülleri
+[cite_start]Sistem, farklı kullanıcı gruplarının ihtiyaçlarına göre özelleştirilmiş modüller içerir:
+
+* **👮 Operasyon & Güvenlik:** Uçuş koordinasyonu, kapı atamaları, gümrük ve kimlik doğrulama süreçleri.
+* [cite_start]**✈️ Yolcu Hizmetleri:** Biletleme, check-in, bagaj durumu sorgulama ve uçuş süresi takibi[cite: 437].
+* [cite_start]**📊 Yönetim (Admin):** Yolcu yoğunluk analizleri, performans raporları ve stratejik karar destek verileri[cite: 454].
+
+---
 
 ## 📊 Veritabanı Tasarımı (ER Diyagramı)
 Projenin veritabanı mimarisi ve tablolar arası ilişkiler aşağıdaki gibidir.
