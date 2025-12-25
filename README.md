@@ -28,14 +28,14 @@ Projenin veritabanı inşası, gerçek hayat senaryosuna uygun olarak 4 aşamada
 ### 📍 Aşama 1: Havalimanı Verileri Ekleme İşlemi
 Sistemin ilk adımı, uçuşların gerçekleşeceği lokasyonların sisteme tanıtılmasıdır. İstanbul, Londra, Dubai gibi merkezler `Havalimanı` tablosuna benzersiz ID'ler ile kaydedilmiştir.
 
-![Havalimanı Veri Çıktısı](01_Havalimani_Ciktisi.png)
+![Havalimanı Veri Çıktısı](Havalimanı_veri_ekleme_çıktısı.png)
 
 <br>
 
 ### 🚌 Aşama 2: Ulaşım Verileri Ekleme
 Her havalimanının şehir merkeziyle bağlantısını sağlayan Taksi, Otobüs ve Metro seçenekleri, ilgili havalimanının ID'si ile ilişkilendirilerek `Ulaşım` tablosuna işlenmiştir. Bu sayede hangi havalimanında hangi ulaşım aracının olduğu sorgulanabilir.
 
-![Ulaşım Veri Çıktısı](02_Ulasim_Ciktisi.png)
+![Ulaşım Veri Çıktısı](Ulaşım_veri_ekleme_çıktısı.png)
 
 <br>
 
@@ -43,14 +43,14 @@ Her havalimanının şehir merkeziyle bağlantısını sağlayan Taksi, Otobüs 
 Sistemi kullanacak yolcuların kimlik, iletişim ve pasaport bilgileri `Yolcu` tablosuna girilmiştir.
 * **Önemli Detay:** Sistem, yolcuların hukuki durumunu (Aktif / Kara Liste) takip etmektedir. Çıktıda görüleceği üzere "Kara Liste"deki yolcular veritabanında özel olarak işaretlenmiştir.
 
-![Yolcu Veri Çıktısı](03_Yolcu_Ciktisi.png)
+![Yolcu Veri Çıktısı](Yolcu_veri_ekleme_çıktısı.png)
 
 <br>
 
 ### ✈️ Aşama 4: Havayolu Şirketi Verileri Ekleme
 Uçuşları gerçekleştirecek olan Türk Hava Yolları, Lufthansa, Emirates gibi şirketler `HavayoluSirketi` tablosuna iletişim bilgileriyle birlikte kaydedilmiştir.
 
-![Havayolu Veri Çıktısı](04_Havayolu_Ciktisi.png)
+![Havayolu Veri Çıktısı](HavayoluYolcu_veri_ekleme_çıktısı.png)
 
 ---
 
