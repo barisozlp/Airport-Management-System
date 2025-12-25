@@ -21,6 +21,6 @@ SQL dilindeki `INSERT INTO` komutu kullanılarak; İstanbul, Ankara, Paris ve Du
 **Sistem Çıktısı:**
 Aşağıdaki ekran görüntüsü, veriler eklendikten sonra PostgreSQL veritabanından alınan **gerçek anlık görüntüdür**. Görüldüğü üzere sistem, her havalimanına benzersiz bir kimlik (ID) atamış ve kayıtları başarıyla saklamıştır.
 
-![PostgreSQL Havalimanı Veri Çıktısı](Havalimanı_Veri_Ciktisi.png)
+![PostgreSQL Havalimanı Veri Çıktısı](Havalimanı_veri_ekleme_çıktısı.png)
 3.  **`02_Trigger_ve_Fonksiyonlar.sql`**: Otomasyon sistemlerini (Puan artırma, Kapı güncelleme vb.) devreye alır.
 4.  **`03_Views.sql`**: Raporlama ekranlarını oluşturur.
