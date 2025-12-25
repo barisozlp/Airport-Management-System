@@ -52,14 +52,14 @@ Projenin veritabanı inşası, gerçek hayat senaryosuna uygun olarak 4 aşamada
 ### 📍 Aşama 1: Havalimanı Verileri Ekleme İşlemi
 Sistemin ilk adımı, uçuşların gerçekleşeceği lokasyonların sisteme tanıtılmasıdır. İstanbul, Londra, Dubai gibi merkezler `Havalimanı` tablosuna benzersiz ID'ler ile kaydedilmiştir.
 
-![Havalimanı Veri Çıktısı](Havalimanı_veri_ekleme_çıktısı.png)
+![Havalimanı Veri Çıktısı](Sorgu_Cıktı_resimleri/Havalimanı_veri_ekleme_çıktısı.png)
 
 <br>
 
 ### 🚌 Aşama 2: Ulaşım Verileri Ekleme
 Her havalimanının şehir merkeziyle bağlantısını sağlayan Taksi, Otobüs ve Metro seçenekleri, ilgili havalimanının ID'si ile ilişkilendirilerek `Ulaşım` tablosuna işlenmiştir. Bu sayede hangi havalimanında hangi ulaşım aracının olduğu sorgulanabilir.
 
-![Ulaşım Veri Çıktısı](Ulaşım_veri_ekleme_çıktısı.png)
+![Ulaşım Veri Çıktısı](Sorgu_Cıktı_resimleri/Ulaşım_veri_ekleme_çıktısı.png)
 
 <br>
 
@@ -67,14 +67,14 @@ Her havalimanının şehir merkeziyle bağlantısını sağlayan Taksi, Otobüs 
 Sistemi kullanacak yolcuların kimlik, iletişim ve pasaport bilgileri `Yolcu` tablosuna girilmiştir.
 * **Önemli Detay:** Sistem, yolcuların hukuki durumunu (Aktif / Kara Liste) takip etmektedir. Çıktıda görüleceği üzere "Kara Liste"deki yolcular veritabanında özel olarak işaretlenmiştir.
 
-![Yolcu Veri Çıktısı](Yolcu_veri_ekleme_çıktısı.png)
+![Yolcu Veri Çıktısı](Sorgu_Cıktı_resimleri/Yolcu_veri_ekleme_çıktısı.png)
 
 <br>
 
 ### ✈️ Aşama 4: Havayolu Şirketi Verileri Ekleme
 Uçuşları gerçekleştirecek olan Türk Hava Yolları, Lufthansa, Emirates gibi şirketler `HavayoluSirketi` tablosuna iletişim bilgileriyle birlikte kaydedilmiştir.
 
-![Havayolu Veri Çıktısı](Havayolu_sirketi_veri_ekleme_çıktısı.png)
+![Havayolu Veri Çıktısı](Sorgu_Cıktı_resimleri/Havayolu_sirketi_veri_ekleme_çıktısı.png)
 
 ---
 
@@ -94,14 +94,14 @@ Yöneticilerin uçuş bazlı karlılığı görebilmesi için geliştirilmiştir
 * **İşlev:** Parametre olarak verilen uçuş ID'sine ait satılan biletlerin (Business, Ekonomi vb.) toplam tutarını hesaplar ve döner.
 * **Örnek Çıktı:** 5 ve 8 numaralı uçuşların toplam geliri hesaplanmış ve SQL sorgu çıktısı verilmiştir.
 
-![Gelir Fonksiyonu Çıktısı](Gelir_fonksiyonu_çıktıları.png)
+![Gelir Fonksiyonu Çıktısı](Sorgu_Cıktı_resimleri/Gelir_fonksiyonu_çıktıları.png)
 
 #### B. Anlık Kapı (Gate) Durum Raporu
 Operasyon birimlerinin havalimanındaki kapıların durumunu raporlar.
 * **Fonksiyon:** `KapıDurumları(HavalimanıID)`
 * **İşlev:** İlgili havalimanındaki tüm kapıları ve şu anki durumlarını (Açık/Kapalı/Kullanılabilir) tablo olarak listeler.
 
-![Kapı Durum Fonksiyonu Çıktısı](Kapı_durum_fonksiyonu_çıktıları.png)
+![Kapı Durum Fonksiyonu Çıktısı](Sorgu_Cıktı_resimleri/Kapı_durum_fonksiyonu_çıktıları.png)
 
 <br>
 
@@ -114,11 +114,11 @@ Sistem, operasyonel değişikliklere otomatik tepki vererek manuel işlem hatas�
 * **Otomasyon:** İptal edilen uçağın işgal ettiği kapıyı otomatik olarak **'AÇIK'** statüsüne getirir, böylece kapı başka uçaklar için kullanılabilir hale gelir.
 * Kapı durumunun ilk hali ve Triggerın uygulanmasıyla oluşan son hali aşağıda verilmiştir
   
-![Kapı Durumunun İlk Hali](kapı_durumunun_ilk_hali_çıktısı.png)
+![Kapı Durumunun İlk Hali](Sorgu_Cıktı_resimleri/kapı_durumunun_ilk_hali_çıktısı.png)
 
 * **Kanıt:** Aşağıda, 5 ve 8 numaralı uçuşlar edildiğinde, ona bağlı kapının sistem tarafından otomatik açıldığı görülmektedir.
 
-![Kapı Durumunun Son Hali](kapı_durumunun_son_hali_çıktısı.png)
+![Kapı Durumunun Son Hali](Sorgu_Cıktı_resimleri/kapı_durumunun_son_hali_çıktısı.png)
 
 #### B. Yolcu Sadakat Puanı ve Seviye Güncellemesi 
 
@@ -126,11 +126,11 @@ Sistem, operasyonel değişikliklere otomatik tepki vererek manuel işlem hatas�
 * **Otomasyon:** O uçuşta bileti olan tüm yolcuların hesabına anında **+100 Sadakat Puanı** eklenir.
 * Kapı durumunun ilk hali ve Triggerın uygulanmasıyla oluşan son hali aşağıda verilmiştir
   
-![Sadakat Durumunun ilk hali](Sadakat_durumunun_ilk_hali_çıktısı.png)
+![Sadakat Durumunun ilk hali](Sorgu_Cıktı_resimleri/Sadakat_durumunun_ilk_hali_çıktısı.png)
 
 * **Kanıt:** Aşağıda, 4  numaralı yolcunun yaptığı uçuş sonrası eklenen +100 puan durumu gösterilmiştir.
   
-![Sadakat Durumunun son hali](Sadakat_durumunun_son_hali_çıktısı.png)
+![Sadakat Durumunun son hali](Sorgu_Cıktı_resimleri/Sadakat_durumunun_son_hali_çıktısı.png)
 
 <br>
 
