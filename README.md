@@ -114,11 +114,11 @@ Sistem, operasyonel değişikliklere otomatik tepki vererek manuel işlem hatas�
 * **Otomasyon:** İptal edilen uçağın işgal ettiği kapıyı otomatik olarak **'AÇIK'** statüsüne getirir, böylece kapı başka uçaklar için kullanılabilir hale gelir.
 * Kapı durumunun ilk hali ve Triggerın uygulanmasıyla oluşan hali aşağıda verilmiştir
   
-![Kapı Durumunun İlk Hali](kapı_durumunun_ilk_hali.png)
+![Kapı Durumunun İlk Hali](kapı_durumunun_ilk_hali_çıktısı.png)
 
 * **Kanıt:** Aşağıda, 5 ve 8 numaralı uçuşlar edildiğinde, ona bağlı kapının sistem tarafından otomatik açıldığı görülmektedir.
 
-![Kapı Durumunun Son Hali](kapı_durumunun_son_hali.png)
+![Kapı Durumunun Son Hali](kapı_durumunun_son_hali_çıktısı.png)
 
 #### B. Müşteri Sadakat Programı (Loyalty Automation)
 Yolcu memnuniyetini artırmak için puanlama sistemi otomatize edilmiştir.
