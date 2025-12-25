@@ -3,11 +3,6 @@
 ## 🎯 Projenin Amacı ve Çözüm Yaklaşımı
 [cite_start]Modern havalimanlarında birbirinden bağımsız çalışan sistemler veri kopukluğuna ve operasyonel gecikmelere neden olmaktadır[cite: 441]. Bu proje, **PostgreSQL** altyapısını kullanarak şu gerçek hayat problemlerine çözüm üretmiştir:
 
----
-
-## 🎯 Projenin Amacı ve Çözüm Yaklaşımı
-[cite_start]Modern havalimanlarında birbirinden bağımsız çalışan sistemler veri kopukluğuna ve operasyonel gecikmelere neden olmaktadır[cite: 441]. Bu proje, **PostgreSQL** altyapısını kullanarak şu gerçek hayat problemlerine çözüm üretmiştir:
-
 ### 1. 🌍 Merkezi Veri Entegrasyonu
 [cite_start]Tüm operasyonel birimlerin (Yer hizmetleri, Güvenlik, Yönetim) verilerini tek bir merkezde toplayarak veri güvenilirliğini sağlamış ve bilgi kopukluğunu önlemiştir[cite: 443].
 
