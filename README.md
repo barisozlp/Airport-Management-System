@@ -78,3 +78,32 @@ Uçuşları gerçekleştirecek olan Türk Hava Yolları, Lufthansa, Emirates gib
 
 ---
 
+<br>
+
+---
+
+## 🧠 Gelişmiş SQL Özellikleri
+Proje, sadece veri depolamakla kalmayıp, iş mantığını (Business Logic) veritabanı seviyesinde yöneten **Fonksiyonlar** ve **Triggerlar** ile donatılmıştır.
+
+### 📊 1. Fonksiyonlar
+Veritabanı üzerinde karmaşık hesaplamalar ve listelemeler yapan PL/pgSQL 2 adet temel fonksiyon geliştirilmiştir.
+
+#### A. Uçuş Bilet Geliri Hesaplama
+Yöneticilerin uçuş bazlı karlılığı görebilmesi için geliştirilmiştir.
+* **Fonksiyon:** `UçuşBiletGeliri(UçuşID)`
+* **İşlev:** Parametre olarak verilen uçuş ID'sine ait satılan biletlerin (Business, Ekonomi vb.) toplam tutarını hesaplar ve döner.
+* **Örnek Çıktı:** 5 numaralı uçuşun toplam geliri hesaplanmıştır.
+
+![Gelir Fonksiyonu Çıktısı](05_Gelir_Fonksiyonu.png)
+
+#### B. Anlık Kapı (Gate) Durum Raporu
+Operasyon birimlerinin havalimanındaki kapıların durumunu raporlar.
+* **Fonksiyon:** `KapıDurumları(HavalimanıID)`
+* **İşlev:** İlgili havalimanındaki tüm kapıları ve şu anki durumlarını (Açık/Kapalı/Kullanılabilir) tablo olarak listeler.
+
+![Kapı Durum Fonksiyonu Çıktısı](06_Kapi_Durum_Fonksiyonu.png)
+
+<br>
+
+
+
