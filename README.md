@@ -101,7 +101,7 @@ Operasyon birimlerinin havalimanındaki kapıların durumunu raporlar.
 * **Fonksiyon:** `KapıDurumları(HavalimanıID)`
 * **İşlev:** İlgili havalimanındaki tüm kapıları ve şu anki durumlarını (Açık/Kapalı/Kullanılabilir) tablo olarak listeler.
 
-![Kapı Durum Fonksiyonu Çıktısı](Kapi_durum_fonksiyonu_çıktıları.png)
+![Kapı Durum Fonksiyonu Çıktısı](Kapı_durum_fonksiyonu_çıktıları.png)
 
 <br>
 
