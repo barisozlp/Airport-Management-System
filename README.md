@@ -3,7 +3,6 @@
 ## 🎯 Projenin Amacı ve Çözüm Yaklaşımı
 [cite_start]Modern havalimanlarında birbirinden bağımsız çalışan sistemler veri kopukluğuna ve operasyonel gecikmelere neden olmaktadır[cite: 441]. Bu proje, **PostgreSQL** altyapısını kullanarak şu gerçek hayat problemlerine çözüm üretmiştir:
 
-PostgreSQL tabanlı kapsamlı Havalimanı Yönetim Sistemi. Otomatik sadakat puanı artırma ve kapı durumu güncelleme Trigger'ları, detaylı raporlama View'leri ve normalize edilmiş ilişkisel veritabanı mimarisini içerir.
 ---
 
 ## 🎯 Projenin Amacı ve Çözüm Yaklaşımı
