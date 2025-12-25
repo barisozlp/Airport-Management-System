@@ -105,5 +105,29 @@ Operasyon birimlerinin havalimanındaki kapıların durumunu raporlar.
 
 <br>
 
+### ⚡ 2. Triggerların oluşturulması
+Sistem, operasyonel değişikliklere otomatik tepki vererek manuel işlem hatasını ortadan kaldırır.
+
+#### A. Otomatik Kapı Durum Güncellemesi 
+
+* **Senaryo:** Operasyon ekibi bir uçuşu **'İptal Edildi'** olarak güncellediğinde trigger devreye girer.
+* **Otomasyon:** İptal edilen uçağın işgal ettiği kapıyı otomatik olarak **'AÇIK'** statüsüne getirir, böylece kapı başka uçaklar için kullanılabilir hale gelir.
+* Kapı durumunun ilk hali ve Triggerın uygulanmasıyla oluşan hali aşağıda verilmiştir
+  
+![Kapı Durumunun İlk Hali](kapı_durumunun_ilk_hali.png)
+
+* **Kanıt:** Aşağıda, 5 ve 8 numaralı uçuşlar edildiğinde, ona bağlı kapının sistem tarafından otomatik açıldığı görülmektedir.
+
+![Kapı Durumunun Son Hali](kapı_durumunun_son_hali.png)
+
+#### B. Müşteri Sadakat Programı (Loyalty Automation)
+Yolcu memnuniyetini artırmak için puanlama sistemi otomatize edilmiştir.
+* **Senaryo:** Bir uçuş **'Gerçekleşti'** statüsüne geçtiğinde (Uçak indiğinde) trigger çalışır.
+* **Otomasyon:** O uçuşta bileti olan tüm yolcuların hesabına anında **+100 Sadakat Puanı** eklenir.
+
+![Sadakat Trigger Kanıtı](08_Sadakat_Trigger_Kanit.png)
+
+<br>
+
 
 
