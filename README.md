@@ -94,7 +94,7 @@ Yöneticilerin uçuş bazlı karlılığı görebilmesi için geliştirilmiştir
 * **İşlev:** Parametre olarak verilen uçuş ID'sine ait satılan biletlerin (Business, Ekonomi vb.) toplam tutarını hesaplar ve döner.
 * **Örnek Çıktı:** 5 numaralı uçuşun toplam geliri hesaplanmıştır.
 
-![Gelir Fonksiyonu Çıktısı](05_Gelir_Fonksiyonu.png)
+![Gelir Fonksiyonu Çıktısı](Gelir_fonksiyonu_çıktıları.png)
 
 #### B. Anlık Kapı (Gate) Durum Raporu
 Operasyon birimlerinin havalimanındaki kapıların durumunu raporlar.
