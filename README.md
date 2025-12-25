@@ -92,7 +92,7 @@ Veritabanı üzerinde karmaşık hesaplamalar ve listelemeler yapan PL/pgSQL 2 a
 Yöneticilerin uçuş bazlı karlılığı görebilmesi için geliştirilmiştir.
 * **Fonksiyon:** `UçuşBiletGeliri(UçuşID)`
 * **İşlev:** Parametre olarak verilen uçuş ID'sine ait satılan biletlerin (Business, Ekonomi vb.) toplam tutarını hesaplar ve döner.
-* **Örnek Çıktı:** 5 numaralı uçuşun toplam geliri hesaplanmıştır.
+* **Örnek Çıktı:** 5 ve 8 numaralı uçuşların toplam geliri hesaplanmış ve SQL sorgu çıktısı verilmiştir.
 
 ![Gelir Fonksiyonu Çıktısı](Gelir_fonksiyonu_çıktıları.png)
 
