@@ -10,7 +10,7 @@ Tüm operasyonel birimlerin (Yer hizmetleri, Güvenlik, Yönetim) verilerini tek
 Yolcu profilleme sistemi sayesinde, yolcuların geçmiş seyahat verileri ve güvenlik durumları (Örn: Kara Liste kontrolü) anlık olarak sorgulanabilir hale getirilmiştir.
 
 ### 3. ⏱️ Operasyonel Verimlilik ve Esneklik
-Sefer ekleme, iptal veya rötar durumları anlık yönetilebilir. Hangi uçuşu hangi pilotun ve kabin ekibinin gerçekleştirdiği takip edilerek kaynak planlaması optimize edilmiştir.
+Sefer ekleme, iptal veya rötar durumları anlık yönetilebilir. Hangi uçuşu hangi ekibin gerçekleştirdiği takip edilerek kaynak planlaması optimize edilmiştir.
 
 ### 4. 🧳 Bagaj ve Lojistik Takibi
 Yolcu bilet ID'si ile entegre bagaj takip sistemi sayesinde, kayıp bagaj vakaları ve yanlış yönlendirmeler minimize edilmeye çalışılmıştır.
