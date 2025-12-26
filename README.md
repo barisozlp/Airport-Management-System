@@ -85,7 +85,7 @@ Uçuşları gerçekleştirecek olan Türk Hava Yolları, Lufthansa, Emirates gib
 ## 🧠 Gelişmiş SQL Özellikleri
 Proje, sadece veri depolamakla kalmayıp, iş mantığını (Business Logic) veritabanı seviyesinde yöneten **Fonksiyonlar** ve **Triggerlar** ile donatılmıştır.
 
-### 📊 1. Fonksiyonlar
+## 📊 1. Fonksiyonlar
 Veritabanı üzerinde karmaşık hesaplamalar ve listelemeler yapan PL/pgSQL 2 adet temel fonksiyon geliştirilmiştir.
 
 #### A. Uçuş Bilet Geliri Hesaplama
@@ -104,8 +104,10 @@ Operasyon birimlerinin havalimanındaki kapıların durumunu raporlar.
 ![Kapı Durum Fonksiyonu Çıktısı](Sorgu_Cıktı_resimleri/Kapı_durum_fonksiyonu_çıktıları.png)
 
 <br>
+
 ---
-### ⚡ 2. Triggerların oluşturulması
+
+## ⚡ 2. Triggerların oluşturulması
 Sistem, operasyonel değişikliklere otomatik tepki vererek manuel işlem hatasını ortadan kaldırır.
 
 #### A. Otomatik Kapı Durum Güncellemesi 
