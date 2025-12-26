@@ -134,5 +134,24 @@ Sistem, operasyonel değişikliklere otomatik tepki vererek manuel işlem hatas�
 
 <br>
 
+---
 
+## 📈 3. Views
+Veritabanındaki ham verileri, yönetim ve operasyon ekipleri için anlamlı raporlara dönüştüren sanal tablolar (**Views**) oluşturulmuştur.
+
+### 📋 A. Uçuş ve Yolcu Sadakat Raporu
+* **View Adı:** `uçuş_yolcu_sadakat`
+* **Amaç:** Her uçuşa katılan yolcuların kimlik bilgilerini, güncel sadakat puanlarını ve üyelik seviyelerini (Altın, Gümüş, Bronz) tek listede gösterir.
+* **Kullanım:** Kabin ekibi, bu liste sayesinde uçuş öncesi VIP yolcuları belirleyerek özelleştirilmiş hizmet sunabilir.
+
+![Sadakat Raporu Çıktısı](View_Sadakat_çıktısı.png)
+
+<br>
+
+### 🗂️ B. Yolcu Seyahat Geçmişi (Passenger History)
+* **View Adı:** `yolcu_seyahat_geçmişi`
+* **Amaç:** Bir yolcunun sisteme kayıt olduğu günden itibaren katıldığı tüm uçuşları, bu uçuşların durumunu (Gerçekleşti/İptal) ve puan değişimlerini kronolojik olarak listeler.
+* **Analiz:** Yolcu seyahat alışkanlıklarını tespit etmek ve güvenlik profillemesi yapmak için kullanılır.
+
+![Seyahat Geçmişi Çıktısı](View_Gecmis_çıktısı.png)
 
