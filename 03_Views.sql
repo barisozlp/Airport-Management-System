@@ -11,6 +11,8 @@ JOIN Bilet b ON u.UçuşID = b.UçuşID
 JOIN Yolcu y ON b.YolcuID = y.YolcuID
 LEFT JOIN SadakatProgramı s ON y.YolcuID = s.YolcuID
 ORDER BY u.UçuşID, s.Puan DESC;
+-- Test Durumu
+SELECT FROM public.uçuş_yolcu_sadakat;
 
 -- VIEW 2: Yolcu Seyahat Geçmişi
 CREATE OR REPLACE VIEW public.yolcu_seyahat_geçmişi AS
@@ -26,3 +28,5 @@ LEFT JOIN Bilet b ON y.YolcuID = b.YolcuID
 LEFT JOIN Uçuş u ON b.UçuşID = u.UçuşID
 LEFT JOIN SadakatProgramı s ON y.YolcuID = s.YolcuID
 ORDER BY y.AdSoyad, u.KalkışTarihi;
+-- Test Durumu
+SELECT FROM public.yolcu_seyahat_geçmişi;
