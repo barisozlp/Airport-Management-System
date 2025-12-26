@@ -153,7 +153,7 @@ Veritabanındaki ham verileri, yönetim ve operasyon ekipleri için anlamlı rap
 * **Amaç:** Bir yolcunun sisteme kayıt olduğu günden itibaren katıldığı tüm uçuşları, bu uçuşların durumunu (Gerçekleşti/İptal) ve puan değişimlerini kronolojik olarak listeler.
 * **Analiz:** Yolcu seyahat alışkanlıklarını tespit etmek ve güvenlik profillemesi yapmak için kullanılır.
 
-![Seyahat Geçmişi Çıktısı](Sorgu_Cıktı_resimleri/View_Geçmis_çıktısı.png)
+![Seyahat Geçmişi Çıktısı](Sorgu_Cıktı_resimleri/View_Yolcu_çıktısı.png)
 
 
 
