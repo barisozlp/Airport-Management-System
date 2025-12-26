@@ -144,7 +144,7 @@ Veritabanındaki ham verileri, yönetim ve operasyon ekipleri için anlamlı rap
 * **Amaç:** Her uçuşa katılan yolcuların kimlik bilgilerini, güncel sadakat puanlarını ve üyelik seviyelerini (Altın, Gümüş, Bronz) tek listede gösterir.
 * **Kullanım:** Kabin ekibi, bu liste sayesinde uçuş öncesi VIP yolcuları belirleyerek özelleştirilmiş hizmet sunabilir.
 
-![Sadakat Raporu Çıktısı](View_Sadakat_çıktısı.png)
+![Sadakat Raporu Çıktısı](Sorgu_Cıktı_resimleri/View_Sadakat_çıktısı.png)
 
 <br>
 
@@ -153,5 +153,5 @@ Veritabanındaki ham verileri, yönetim ve operasyon ekipleri için anlamlı rap
 * **Amaç:** Bir yolcunun sisteme kayıt olduğu günden itibaren katıldığı tüm uçuşları, bu uçuşların durumunu (Gerçekleşti/İptal) ve puan değişimlerini kronolojik olarak listeler.
 * **Analiz:** Yolcu seyahat alışkanlıklarını tespit etmek ve güvenlik profillemesi yapmak için kullanılır.
 
-![Seyahat Geçmişi Çıktısı](View_Gecmis_çıktısı.png)
+![Seyahat Geçmişi Çıktısı](Sorgu_Cıktı_resimleri/View_Gecmis_çıktısı.png)
 
