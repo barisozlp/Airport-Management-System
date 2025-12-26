@@ -104,7 +104,7 @@ Operasyon birimlerinin havalimanındaki kapıların durumunu raporlar.
 ![Kapı Durum Fonksiyonu Çıktısı](Sorgu_Cıktı_resimleri/Kapı_durum_fonksiyonu_çıktıları.png)
 
 <br>
-
+---
 ### ⚡ 2. Triggerların oluşturulması
 Sistem, operasyonel değişikliklere otomatik tepki vererek manuel işlem hatasını ortadan kaldırır.
 
